@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="WatchCircle.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>WatchCircle</title>
+
+    <link href="Content/Site.css" rel="stylesheet" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+
+    <form id="mainForm" runat="server">
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+
+            <div class="navbar-container">
+
+                <a href="Default.aspx" class="logo">
+                    WatchCircle
+                </a>
+
+                <div class="nav-links">
+
+                    <a href="Default.aspx">Home</a>
+
+                    <a href="Dashboard.aspx">Dashboard</a>
+
+                    <a href="MyWatchlist.aspx">My Watchlist</a>
+
+                    <a href="Friends.aspx">Friends</a>
+
+                    <a href="FriendRequests.aspx">Friend Request</a>
+
+
+                    <a href="Profile.aspx">Profile</a>
+
+
+                    <a href="Logout.aspx">Logout</a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </main>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <p>
+                WatchCircle
+            </p>
+
+            <p>
+                Your watchlist. Your friends. Your circle.
+            </p>
+
+        </footer>
+
+    </form>
+
+</body>
+</html>
