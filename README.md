@@ -4,7 +4,7 @@ A social movie and TV series watchlist web application built using ASP.NET Web F
 
 ## Live Demo
 
-🌐 **Live Website:** http://watchcircle.somee.com
+🌐 **Live Website:** https://watchcircle.somee.com
 
 The application is deployed on Somee using IIS and a remote MS SQL Server database.
 
